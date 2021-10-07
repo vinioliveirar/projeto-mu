@@ -75,7 +75,7 @@ img{
     justify-content: space-between;
     align-items: center;
     margin: 10px;
-    width: 200px;
+    width: 230px;
     padding: 10px;
     border-radius: 5px;
     height:200px;
@@ -117,7 +117,10 @@ button:hover{
     justify-content: center;
     width: 90vw;
     align-items: center;
+    cursor: default;
 }
+
+
 @media only screen and (min-width: 600px) {
     .info {
     flex-direction: row;
@@ -133,11 +136,22 @@ button:hover{
     margin: 10px;
     width: 400px;
 }
+#card-info:hover{
+    transform: scale(1.03);
+    
+}
+#card-info h4{
+    color: #242424;
+    text-align: center;
+    border-bottom: 1px solid #CEE3A1;
+    
+}
 
 /*titulo da agenda*/
 .title-agenda{
     margin: 15px;
     padding: 5px;
+    
 }
 .title-agenda:hover{
     border-bottom: 2px solid #CEE3A1;
@@ -176,3 +190,6 @@ footer{
     align-items: flex-end;
 }
 
+table tr td{
+    padding: 10px;
+}
