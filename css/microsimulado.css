@@ -47,7 +47,6 @@ img{
     align-items: center;
     flex-wrap: wrap;
     background: rgb(245, 245, 245);
-    /*border: 2px solid red;*/
     border-radius: 20px;
     margin: 20px;
     box-shadow: 2px 2px 2px grey;
@@ -66,7 +65,6 @@ h1:hover{
     margin: 10px;
     padding: 30px;
     display: flex;
-    box-sizing: border-box;
     background: white;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #CEE3A1;
