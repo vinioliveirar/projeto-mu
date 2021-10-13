@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*corpo todo*/
+body{
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    background: radial-gradient(circle, rgba(77,69,218,1) 0%, rgba(99,99,223,1) 50%, rgba(72,175,196,1) 100%);
+}
+/* menu navegação*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 400px) {
+    .menu {
+    flex-direction: row;
+    }
+}
+
+/*img logo*/
+img{
+    width: 30px;
+    margin: 10px;
+}
+/* botao do menu*/
+#btn1{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    color: #F7FAEF;
+}
+#btn1:hover{
+    border-bottom: 2px solid #CEE3A1;
+}
+
+/* conteudo geral */
+
+.conteudo{
+   /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 15px;
+    margin: 10px 10px 0 10px ;
+    border-radius: 20px 20px 0 0;
+}    
+
+/* menu lateral*/
+.menu-lateral{
+   /* border: 2px solid green;*/
+    /*background: white;*/
+    position: fixed;
+    height: 400px;
+    width: 200px;
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(68, 68, 68) ;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #CEE3A1;
+}
+nav ul li ul{
+    display: none;
+    position: relative;
+    margin-left: 10px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+
+
+
+
+
+/* materia */
+.materia{
+    border: 2px solid grey;
+    background: white;
+    margin-left: 250px;
+}
+.conte h2{
+    text-align: center;
+    padding: 5px;
+}
+h4{
+    padding-bottom: 5px;
+}
+p{
+    padding-bottom: 5px;
+}
+.conte{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+    
+}
+.conte ul li{
+    list-style: none;
+}
+
+table{
+    width: 250px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px; 
+}
+
+
+.c1{
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    table, th, td, tr, .c1 { 
+        display: block; 
+    }
+}
+td, th, .c1 { 
+    padding: 6px; 
+    text-align: left !important;
+    font-size:15px;
+  }
+
+  @media only screen and (min-width: 300px) {
+    .conteudo {
+    flex-direction: column;
+    display: block;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .menu-lateral {
+    flex-direction: column;
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .materia {
+    margin-left: 0;
+    }
+}

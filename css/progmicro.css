@@ -37,3 +37,32 @@ img{
 #btn1:hover{
     border-bottom: 2px solid #CEE3A1;
 }
+
+/* conteudo geral */
+
+.conteudo{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}    
+
+/* menu lateral*/
+.menu-lateral{
+    border: 2px solid green;
+    background: white;
+    position: fixed;
+    height: 400px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+}
+/* materia */
+.materia{
+    border: 2px solid grey;
+    background: white;
+    margin-left: 250px;
+    
+   
+}
