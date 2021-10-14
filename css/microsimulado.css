@@ -123,7 +123,27 @@ h1:hover{
     border: 1px solid white;
 }
 
+.back{
+   position: fixed;
+   padding: 20px;
+}
 
+.button{
+    background: #7ecb20;
+    width: 200px;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1em;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    margin-left: 220px;
+}
+.button:hover{
+    background: #b2ff59;
+
+}
 
 /* configuração da tabela*/
 .quest2 td:first-child{
