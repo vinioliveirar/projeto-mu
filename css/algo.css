@@ -166,6 +166,7 @@ table{
     padding: 10px; 
 }
 
+
 #tabmaior{
     width:450px;
     margin: auto;
@@ -224,5 +225,29 @@ td, th, .c1 {
     .menu-lateral-s {
     flex-direction: column;
     display: block;
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    table, #tabmaior{ 
+        width: 200px;
+        
+    }
+}
+
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    .imgs{ 
+        max-width:300px;
+        max-height:250px;
+        width: auto;
+        height: auto;
     }
 }
