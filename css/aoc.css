@@ -145,12 +145,28 @@ p{
     margin: 10px;
     
 }
+
+.conte img{
+    width:550px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#aoc-02 {
+    width:700px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 .conte ul li{
     list-style: none;
 }
 
 table{
-    width: 250px;
+    width: 700px;
     margin: auto;
     border: 1px solid black;
     padding: 10px; 
@@ -207,3 +223,9 @@ td, th, .c1 {
     text-align: left !important;
     font-size:15px;
   }
+
+h3 {
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}

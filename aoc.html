@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/aoc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATERIA</title>
+    <title>Prog. Microinformática</title>
 </head>
 <body>
     <div class="menu">
@@ -27,10 +27,8 @@
                <ul>
                     <li><a href="#">Revisão 1ª bimestre</a>
                         <ul>
-                            <li><a href="#m1">A</a></li>
-                            <li><a href="#m2">A</a></li>
-                            <li><a href="#m3">A</a></li>
-                            <li><a href="#">A</a></li>
+                            <li><a href="#m1">Bases Numéricas</a></li>
+                            <li><a href="#m2">Lógicas Digitais</a></li>
                         </ul>                    
                     </li>
                     <li><a href="#">Revisão 2ª Bimestre</a></li>
@@ -45,10 +43,8 @@
                <ul>
                     <li><a href="#">Revisão 1ª bimestre</a>
                         <ul>
-                            <li><a href="#m1">A</a></li>
-                            <li><a href="#m2">A</a></li>
-                            <li><a href="#m3">A</a></li>
-                            <li><a href="#">A</a></li>
+                            <li><a href="#m1">Bases Numéricas</a></li>
+                            <li><a href="#m2">Lógicas Digitais</a></li>
                         </ul>                    
                     </li>
                     <li><a href="#">Revisão 2ª Bimestre</a></li>
@@ -57,22 +53,118 @@
                </ul> 
             </nav>
         </div>
+
+
+
+
         <div class="materia">
+
+
+            <!--Bases Numéricas-->
+
+
             <div class="conte">
-                <h2 id="m1">CONTEUDO</h2>
+
+                <h2 id="m1">BASES NUMÉRICAS</h2>
+            <table>
+                <tr> <th> Sistema Binário </th>  <th> Sistema Octal </th>  <th>Sistema Decimal</th> <th> Sistema Hexadecimal </th> </tr> 
+                <tr> <td>Base 02</td>            <td>Base 08</td>   <td>Base 10</td>        <td>Base 16</td>                </tr>
+                <tr> <td>2 dígitos binários</td> <td>8 dígitos octais</td> <td>10 dígitos decimais</td> <td>16 dígitos hexadecimais</td></tr>
+                <tr> <td>0 1</td> <td>0 1 2 3 4 5 6 7</td> <td> 0 1 2 3 4 5 6 7 8 9</td>  <td>0 1 2 3 4 5 6 7 8 9 A B C D E F</td></tr>
+
+
+        </table>
+            <h3>Conversão entre bases</h3>
+            <img src="image/aoc-01-conversao.png"/>
+
+
+
+            <table> 
+                    <tr> 
+                        <td> <h4>Decimal para Binário</h4>
+            <p>Conversão do número decimal 11 para binário: </p>
+            <p>11 / 2 = 5 resto 1 </p>
+            <p>5 / 2 = 2 resto 1 </p>
+            <p>2 / 2 = 1 resto 0 </p>
+            <p>11 <sub>10</sub> = 1011 <sub>2</sub></p>
+             <br/>
+            <h4>Decimal para Octal</h4>
+            <p>Conversão do número decimal 126 para octal: </p>
+            <p>126 / 8 = 15 resto 6 </p>
+            <p>15 / 8 = 1 resto 7</p>
+            <p>126 <sub>10</sub> = 176 <sub>8</sub></p>
+            <br/>
+            <h4>Decimal para Hexadecimal</h4>
+            <p>Conversão do número decimal 126 para hexadecimal:</p>
+            <p> 126 / 16 = 7 resto 14</p>
+            <p>126 <sub>10</sub> = 7E <sub>16</sub></p>
+
+        </td>
+        <td>    <h4>Binário - Hexadecimal </h4>
+            <p>Agrupar os dígitos binários de 4 em 4</p>
+            <p>Converter cada grupo de 4 dígitos binários em 1 dígito hexadecimal</p>
+            <br/>
+            <h4>Hexadecimal - Binário</h4>
+            <p>Converter cada dígito hexadecimal em 4 dígitos binários</p>
+            <br/>
+            <h4>Binário - Octal</h4>
+            <p>Converter cada grupo de 3 dígitos binários em 1 dígito octal</p>
+            <br/>
+            <h4>Octal - Binário</h4>
+            <p>Converter cada dígito octal em 3 dígitos binários</p> </td>
+    </tr>
+
+
+            </table>
+
+           <img src="image/aoc-01-bases.png"/>
+
             </div>
+
+
+
+
+
+            <!--LÓGICAS DIGITAIS-->
+
             <div class="conte">
-                <h2>CONTEUDO</h2>
-            </div>
-            <div class="conte">
-                <h2>CONTEUDO</h2>
-            </div>
-            <div class="conte">
-                <h2>CONTEUDO</h2>
-            </div>
-            <div class="conte">
-                <h2>CONTEUDO</h2>
-            </div>
+                <h2 id="m2">LÓGICAS DIGITAIS</h2>
+
+                <h4>Porta Lógica E (AND) </h4>
+                <p>A porta E executa a tabela verdade da função E, portanto a saída será 1 somente se ambas as entradas forem iguais a 1.</p>
+                <img src="image/aoc-02-and.png"/>
+
+
+                <h4>Porta Lógica OU (OR) </h4>
+                <p>A porta OU executa a tabela verdade da função OU, portanto a saída será 0 somente se ambas as entradas forem iguais a 0; nos demais casos, a saída será 1.</p>
+                <img  src="image/aoc-02-or.png"/>
+
+
+                <h4>Porta Lógica NÃO (NOT) </h4>
+                <p>A porta NÃO executa o complemento (negação) de uma variável binária. Também é chamada de inversora.</p>
+                <p>Se a variável estiver em 0, o resultado da função é 1.</p>
+                <p>Se a variável estiver em 10, o resultado da função é 0.</p>
+                <img  src="image/aoc-02-not.png"/>
+
+
+                <h4>Porta Lógica NÃO E (NAND) </h4>
+                <p>Composição da função E com a função NÃO, ou seja, a saída da função E é invertida.</p>
+                <img  src="image/aoc-02-nand.png"/>
+
+                <h4>Porta Lógica NÃO OU (NOR) </h4>
+                <p>Composição da função OU com a função NÃO, ou seja, a saída da função OU é invertida.</p>
+                <img  src="image/aoc-02-nor.png"/>
+
+
+                <h4>Porta Lógica OU EXCLUSIVO (XOR) </h4>
+                <p>Fornece 1 saída quando as entradas forem diferentes entre si e 0 caso contrário.</p>
+                <img  src="image/aoc-02-xor.png"/>
+
+                 <h3>RESUMO DOS BLOCOS LÓGICOS </h3>
+                 <img  src="image/aoc-02-resumo.png"/>
+
+         </div>
+        
     </div>
 </body>
 </html>

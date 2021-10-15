@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/lab.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATERIA</title>
+    <title>Lab. Hardware</title>
 </head>
 <body>
     <div class="menu">
@@ -22,15 +22,14 @@
     <div class="conteudo">
         <div class="menu-lateral-s">
             <a href="#"><img src="image/menu-aberto.png" alt=""></a>
-            <h4>MATERIA</h4>
+            <h4>LABORATÓRIO DE HARDWARE</h4>
             <nav>
                <ul>
                     <li><a href="#">Revisão 1ª bimestre</a>
                         <ul>
-                            <li><a href="#m1">A</a></li>
-                            <li><a href="#m2">A</a></li>
-                            <li><a href="#m3">A</a></li>
-                            <li><a href="#">A</a></li>
+                            <li><a href="#m1">Processador</a></li>
+                            <li><a href="#m2">Memória</a></li>
+                            <li><a href="#m3">Placa-mãe</a></li>
                         </ul>                    
                     </li>
                     <li><a href="#">Revisão 2ª Bimestre</a></li>
@@ -40,15 +39,15 @@
             </nav>
         </div>
         <div class="menu-lateral">
-            <h4>MATERIA</h4>
+            <h4>LABORATÓRIO DE HARDWARE</h4>
             <nav>
                <ul>
                     <li><a href="#">Revisão 1ª bimestre</a>
                         <ul>
-                            <li><a href="#m1">A</a></li>
-                            <li><a href="#m2">A</a></li>
-                            <li><a href="#m3">A</a></li>
-                            <li><a href="#">A</a></li>
+                            <li><a href="#m1">Processador</a></li>
+                            <li><a href="#m2">Memória</a></li>
+                            <li><a href="#m3">Placa-mãe</a></li>
+                         
                         </ul>                    
                     </li>
                     <li><a href="#">Revisão 2ª Bimestre</a></li>
@@ -58,21 +57,191 @@
             </nav>
         </div>
         <div class="materia">
+
+
+            <!--Processadores-->
             <div class="conte">
-                <h2 id="m1">CONTEUDO</h2>
+                <h2 id="m1">PROCESSADOR</h2>
             </div>
             <div class="conte">
-                <h2>CONTEUDO</h2>
+                
+                <h3>MANUSEIO</h3>
+               
+            <ul>
+               
+                <li>Evitar o contato direto, porque temos energia eletrostática no corpo e podemos danificar a peça;</li>
+                <li>Descarregar essa energia segurando um objeto metálico ou o próprio gabinete, estando numa bancada
+                    (compensado e madeira, borracha, fórmica, concreto, mármore) ou usar pulseira eletrostática com aterramento,
+                    se possível. </li>
+                <li> NÂO é recomendado: mesa de ferro ou alumínio.</li>
+            </ul>
+             <img src="image\lab-01-manuseio.png">  
+
+             <h3>SOQUETE</h3>
+
+        <ul>
+            <li>É o local de conexão do processador na placa-mãe;</li>
+            <li> O processador é  um diagrama eletrônico, formado por inúmeros circuitos que calculam, fazem testes lógicos e o número de pinos do soquete tem aumentado ao longo dos anos;</li>
+            <li>A diminuição de tamanhos dos transistores tem aumentado a capacidade de processamento de tarefas;</li>
+            <li>Os fabricantes têm se preocupado cada vez mais com a responsabilidade sócio-ambiental, reduzindo o consumo de energia dos processadores mais modernos.
+            </li>
+        </ul>
+
+         <h3>FREQUÊNCIA/CLOCKS</h3>
+
+        <ul>
+            <li>Está associada à velocidade, porém tem relação direta ao TEMPO/RITMO/SINCRONISMO.</li>
+            <li>Vários chips trabalham juntos e tem o CLOCK em comum, mantendo o sincronismo, senão o computador pode
+                travar.</li>
+            <li>Alguns usuários fazem experiências alterando o clock:</li>
+                <ul>
+                    <li>Overclock - aumentar o clock/tensão elétrica (voltagem), pode diminuir a vida útil do processador;</li>
+                    <li>Underclock - diminuir o clock, para tentar resolver um problema, utilizado para manutenção corretiva.</li>
+                </ul>
+
+
+            <li>A velocidade de um processador é medida em MHz (megahertz) ou GHz (Gigahertz) e é chamada de clock. Ex.:
+                Pentium 4 3.2 tem clock de 3.2 GHz;</li>
+            <li>1 GHz = 1000 Mhz = 1 bilhão de ciclos por segundo</li>
+            <li>Quanto maior o número de GHz, maior será o número de operações realizadas por segundo. </li>
+            <li>Atualmente os processadores têm seus clocks interno e externo configurados de forma automática; </li>
+            <li> Todas as placas-mãe possuem um circuito que controla a velocidade do processador, o gerador de clock; </li>
+            <li>O clock é um sinal eletrônico que realiza rápidas transições entre uma tensão máxima e uma tensão mínima,
+                proxima de 0 volt. </li>
+            <li> O chip gerador de clocks define a velocidade do processador, memória, chipset, PCI, AGP. </li>
+
+            <li>Todo Processador tem duas velocidades:</li>
+                <ul>
+                    <li> Clock Interno (core speed): Velocidade de execução de programas, ou seja, do próprio processador
+                        (execução de cálculos matemáticos, lógicos, aritméticos); </li>
+                    <li>Clock Externo (bus speed): Velocidade de acesso à memória e outras partes do computador / Normalmente
+                        tem uma velocidade mais baixa (O externo faz a comunicação com os outros elementos) - NÃO EXISTE
+                        PROCESSAMENTO SEM MEMÓRIA.
+                        O Clock externo tbm é chamado também de FSB (Front Side Bus – barramento do sistema – barramento externo).</li>
+                </ul>
+
+            <li>Para que um processador seja compatível com uma placa-mãe, é preciso que a placa tenha o tipo de soquete
+                requerido e a velocidade do FSB COMPATÍVEL.</li>
+            <li>A CACHE é uma pequena quantidade de memória super rápida e cara, que serve para acelerar o desempenho da
+                memória RAM; FICA DENTRO DO PROCESSADOR (Letra L) - mantém a rede rápida  (navegação na internet, memória de impressora, de disco, SSD). Necessária para acompanhar a velocidade do CPU.</li>
+
+        </ul>
+         <img src="image\lab-01-proc-interno.png">
+
+
             </div>
+
+
+
+                 <!--Memória-->
             <div class="conte">
-                <h2>CONTEUDO</h2>
+                <h2 id="m2">MEMÓRIA</h2>
+
+                <h3>CARACTERÍSTICAS</h3>
+            <ul>
+                <li>Armazenamento de dados;</li>
+                <li>Escreve e lê;</li>
+                <li>Também trabalha com frequência.</li>
+            </ul>
+
+
+        <h3>CATEGORIAS</h3>
+
+            <h3>MEMÓRIA PRINCIPAL (RAM e ROM)</h3>
+                 <img src="image\lab-02-memoria.png"/>
+                <ul>
+                    <li>Random Access Memory (dados voláteis, leitura e escrita).Conversam com o processador o tempo todo.></li>
+                    <li>Subdividida em estática e dinâmica</li>
+                    <ul>
+                        <li>SRAM (estática): São os Caches L1 e L2. É mais Veloz e cara, localizada dentro do processador.</li>
+                        <li>DRAM (dinâmica) Normalmente é aquela que faz upgrade,ou seja a memória principal
+                            (SDRAM, DDR). Significa Double-Data-Rate (Taxa Dupla de Transferência), ou seja, dobra a quantidade de operações de leitura e escrita.</li>
+                      
+                    </ul>
+     
+                    <li>SPD - Serial Presence Detetc - É uma espécie de etiqueta dentro de um chip onde ficam armazenadas as informações que ajudam a configurar a memória. Quando conectada à placa-mãe, 
+                    as configurações vão direto para o BIOS e consequentemente para o sistema operacional.</li>
+                    <li>Taxa de transferência medida em BITS por segundo;</li>
+
+                </ul>
+
+                        <h4>MEMÓRIAS RAM MULTI CHANNEL</h4> 
+                            <ul>
+                                <li>Os slots tem cores diferentes;</li>
+                                <li> Aumenta o número de bits de memória de 64 para 128 bits;</li>
+                                <li>Dual channel aumentam a taxa de transferência;</li>
+                                <li>Utilizar módulos idênticos por canal;</li>
+                                 <li> Vantagem: consegue trabalhar somente com um pente de memória caso o outro dê defeito;</li>
+                                <li>Sempre tem que ter memórias "gêmeas" em suas características (exemplo: 2 de 8Gb, ou 2 de 4Gb, mesmo que sejam de marcas diferentes)</li>
+                            </ul>
+
+   
+            <h3>MEMÓRIA SECUNDÁRIA</h3>
+                
+                <h3>HD – Hard Disk – Disco Rígido</h3>
+                <img src="image\lab-02-hd.png"/>
+                   
+                <ul>
+                    <li>Pratos ou mídias (disco) – superfície magnética;</li>
+                    <li>Braço tem acesso a qualquer região do disco;</li>
+                    <li>Discos giram em elevada rotação: 7200 RPM; 10.000 RPM;15.000 RPM</li>
+                    <li>A velocidade de um HD depende de três fatores:</li>
+                             <ol type="1">
+                                <li>Tempo de Acesso: Está relacionado com o tempo de movimentação das suas cabeças. É medido em milésimos de segundos (ms). Quanto menor mais rápido.</li>
+                                <li>Taxa de transferência interna: Está relacionada com a velocidade de rotação do disco </li>
+                                <li>Taxa de transferência externa (MB/s): velocidade em que os dados transitam entre sua memória interna (cache) e a memória da placa mãe. </li>
+                            </ol>
+                </ul>
+
             </div>
+
+
+                <!--Placa-Mãe-->
+
+
+
             <div class="conte">
-                <h2>CONTEUDO</h2>
+                <h2 id="m3">PLACA MÃE</h2>
+
+                  <p>É a placa de circuito mais importante de um micro;</p>
+
+        <h3>ON BOARD e OFF BOARD </h3>
+                <ul>
+                    
+                    <li>A diferença entre a placa-mãe on-board e off-board é que as on-board possuem os demais dispositivos do
+                computador (placa de vídeo, placa de áudio, placa de rede, etc.) integrados na própria placa-mãe. Já as off-board não possuem esses outros dispositivos integrados, sendo necessário instalá-los. </li>
+                    <li>A intenção da placa ITX é ter tudo on-board, ou seja, vídeo, áudio, modem e rede integrados na placa-mãe.</li>
+                    <li>Conectores Externos: Conectores para mouse e teclado PS/2, botão para limpar o conteúdo da memória CMOS,
+                        oito portas USB 2.0, saídas SPDIF coaxial e óptica, porta FireWire, duas portas Gigabit Ethernet
+                        e saídas de áudio independentes no formato 7.1. </li>
+                    <li>Conectores Internos:Fonte </li>
+
+                </ul>
+          
+
+        <h3>CHIPSETS</h3>
+            <p>Conjunto de circuitos integrados que são responsáveis por fazer com que todos os componentes do computador, desde o disco rígido até o processador, possam trocar informações e assim realizar as tarefas que exigimos deles.</p>
+            <ul>
+                <li>Ponte Norte: Faz a ligação entre o processador, a memória e o slot para a placa de vídeo (PCI Express x16). Quando a placa mãe tem vídeo onboard, este fica localizado na ponte norte. </li>
+                <li>Ponte Sul: Controla os slots PCI e PCI Express x1 a x8. Possui no seu interior as interfaces de disco (IDE e Sata), interfaces USB, e na maioria dos casos, possui também as interfaces de som e rede onboard e IEEE 1394 (Firewire).</li>
+            </ul>
+        <img src="image\lab-03-pontenortesul.png"/>
+            <p>BIOS - Significa Basic Input-Output System; Sistema localizado em uma memória especial chamada Flash ROM,
+        localizada na placa mãe. Armazena os seguintes programas:</p>
+
+                <ul>
+                    <li> CMOS Setup: hora, HD, opções de funcionamento, velocidade das memórias, etc;</li>
+                    <li> POST (auto teste quando o micro é ligado) Power On Self Test.</li>
+                </ul>
             </div>
-            <div class="conte">
-                <h2>CONTEUDO</h2>
-            </div>
+     
     </div>
 </body>
 </html>
+
+
+       
+
+       
+
+      

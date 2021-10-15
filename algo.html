@@ -30,7 +30,7 @@
                             <li><a href="#m1">Conceitos iniciais</a></li>
                             <li><a href="#m2">Variáveis</a></li>
                             <li><a href="#m3">Tipos Primitivos</a></li>
-                            <li><a href="#">Estruturas de Controle</a></li>
+                            <li><a href="#m4">Estruturas de Controle</a></li>
                         </ul>                    
                     </li>
                     <li><a href="#">Revisão 2ª Bimestre</a></li>
@@ -48,7 +48,7 @@
                             <li><a href="#m1">Conceitos iniciais</a></li>
                             <li><a href="#m2">Variáveis</a></li>
                             <li><a href="#m3">Tipos Primitivos</a></li>
-                            <li><a href="#">Estruturas de Controle</a></li>
+                            <li><a href="#m4">Estruturas de Controle</a></li>
                         </ul>                    
                     </li>
                     <li><a href="#">Revisão 2ª Bimestre</a></li>
@@ -60,7 +60,7 @@
         <div class="materia">
             <!--Conceitos iniciais-->
             <div class="conte">
-                <h2 id="m1"></a> Conceitos iniciais</h2>
+                <h2 id="m1"></a> CONCEITOS INICIAIS</h2>
                 <h4>ALGORITMO:</h4>
                 <p>Sequência de passos ordenados para execução de uma tarefa, que garanta sua repetibilidade.</p>
         
@@ -74,7 +74,7 @@
             </div>
             <!--Variaveis-->
             <div class="conte">
-                <h2 id="m2">Variáveis</h2>
+                <h2 id="m2">VARIÁVEIS</h2>
                 <h4>Variável:</h4>
                 <p> É o endereço de memória que armazena valores, 
                     sejam eles do tipo primitivo inteiro, real, caracter...
@@ -92,7 +92,7 @@
             </div>
             <!--Tipos Primitivos-->
             <div class="conte"> 
-                <h2 id="m3">Tipos Primitivos</h2>
+                <h2 id="m3">TIPOS PRIMITIVOS</h2>
                 <p> Cada espaço da memória precisa ser refenciado em uma 
                     variável e cada variável tem que ter
                     um tipo primitivo: número inteiro, real, caracter.
@@ -127,7 +127,7 @@
                     </li>
                 </ul>
         
-                <h2> OPERADORES ARITMÉTICOS</h2>
+                <h2> Operadores aritméticos </h2>
                 <p> São o conjunto de símbolos que representam as operações básicas da matemática </p>
                 <div>
                     <table>
@@ -146,7 +146,7 @@
                     </table>
                 </div>
                 <p>Operadores de resto e quociente de divisão interira:</p>
-                <div class="c1"> 
+               
 
                     <!--
 
@@ -157,18 +157,21 @@
                         <li>RAD (RAIZ QUADRADA)</li>
                     </ul>
                     -->
-                    <table>
-                        <tr>
-                            <td></td>
-                        </tr>
+                    <table id="tabmaior">
+                        <tr> <td>MOD (Resto da Divisão) </td> <td>9 MOD 4 = 1</td> </tr>
+                        <tr><td>DIV (Quociente da Divisão) </td> <td>9 DIV 4 = 1</td>9 DIV 4 RESULTA 2</td></tr>
+                        <tr><td>POT (Potenciação)</td></td> <td>3 POT 2 = 9</td></tr>
+                        <tr><td>RAD (Raiz Quadrada)</td> <td>RAD(4)=2</td></tr>
                     </table>
-                </div>
-                <h4> EXPRESSÕES LÓGICAS</h4>
+              
+
+                <h2> Expressões Lógicas</h2>
                 <p> Usa operadores lógicos ou relacionais cujos operandos são 
                     relações ou variáveis ou constantes do tipo lógico.
                 </p>
-                <p> OPERADORES RELACIONAIS (são usados nas expressões
-                    lógicas porque sempre retornam verdadeiro ou falso) 
+                <h2>Operadores Relacionais</h2>
+                <p> São usados nas expressões
+                    lógicas porque sempre retornam verdadeiro ou falso.
                 </p>
                 <!--
                 <ul>
@@ -206,7 +209,7 @@
                         <td>diferente de</td>
                     </tr>
                 </table>
-                <h2> OPERADORES LÓGICOS</h2>
+                <h2> Operadores Lógicos</h2>
                 <h2>Tabelas verdade</h2>
                 <br />
                 <table>
@@ -266,13 +269,43 @@
                         <td>V</td>
                     </tr>
                 </table>
-                <p>BLOCO: conjunto de ações com uma função definida 
-                    (o que fica entre o início e o fim do algoritmo)
-                </p>
+                <h4>BLOCO</h4>
+                <p> Conjunto de ações com uma função definida 
+                    (o que fica entre o início e o fim do algoritmo)</p>
+               
                 <p>
                     <- a seta é o comando de atribuição de um valor 
                     ou cálculo à uma variável 
                 </p>
+            </div>
+
+            <div class="conte">
+                <h2 id="m4">ESTRUTURAS DE CONTROLE</h2>
+
+                <h3>Estrutura Sequencial</h3>
+                <p>É a execução do algoritmo de forma linear, de cima para baixo, da esquerda para direita.</p>
+
+                <p>INICIO <br />
+                    VAR<br />
+                    N1,N2,MA:REAL<br />
+                    ESCREVA("DIGITE N1");LEIA(N1);<br />
+                    ESCREVA("DIGITE N2");LEIA(N2);<br />
+                    MA
+                    <-(N1+N2) /2; ESCREVA("MEDIA ARITMETICA",MA);<br />
+                    FIM
+                </p>
+                <h4>SELEÇÃO SIMPLES</h4>
+                <p>SELEÇÃO SIMPLES:Tem uma condição a ser avaliada (SE)e só tem uma saída (Verdadeiro). </p>
+                 <img src="image\alg-01-selecaosimples.png"/>
+                 <h4>SELEÇÃO COMPOSTA</h4>
+                  <p>Tem uma condição a ser avaliada (SE) e tem 2 saídas: Verdadeiro ou falso.</p>
+                    <img src="image\alg-01-selecaocomposta.png"/>
+                    <h4>SELEÇÃO ENCADEADA</h4>
+                    <p>Estrutura de seleção (SE) uma dentro da outra, uma ação ou bloco deve ser executado se um grande conjunto de possibilidades ou combinações de situações for satisfeito.</p>
+                    <img src="image\alg-01-selecaoencadeada.png"/>
+               
+                </ul>  
+
             </div>
         </div>
     </div>

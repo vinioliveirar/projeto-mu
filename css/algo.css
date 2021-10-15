@@ -129,12 +129,22 @@ nav ul li:hover ul{
 .conte h2{
     text-align: center;
     padding: 5px;
+    margin-bottom: 8px;
+}
+.conte  img{
+width:350px;
+margin:auto;
+align-items: center;
+ margin-bottom: 20px;
+ margin-top: 20px;
 }
 h4{
     padding-bottom: 5px;
+    margin-top:5px;
 }
 p{
     padding-bottom: 5px;
+    text-align: justify;
 }
 .conte{
    /* border: 2px solid black;*/
@@ -156,6 +166,12 @@ table{
     padding: 10px; 
 }
 
+#tabmaior{
+    width:450px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px; 
+}
 
 .c1{
     border: 1px solid black;
