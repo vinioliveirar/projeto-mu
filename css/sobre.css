@@ -50,7 +50,7 @@ img{
 /* conteudo geral */
 
 .conteudo{
-   /* border: 2px solid red;*/
+   
     display: flex;
     flex-direction: row;
     background: white;
