@@ -259,6 +259,8 @@ h3 {
 }
 
 .img-menor{
+    display: block;
+    align-items: center;
     width:200px;  
     margin:auto;
     margin-bottom: 30px;
