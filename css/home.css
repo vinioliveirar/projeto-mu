@@ -24,6 +24,16 @@ body{
     flex-direction: row;
     }
 }
+@media only screen and (max-width: 400px) {
+    .menu #btn1 {
+    display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .menu:hover #btn1 {
+    display: block;
+    }
+}
 /*img logo*/
 img{
     width: 30px;

@@ -22,6 +22,16 @@ body{
     flex-direction: row;
     }
 }
+@media only screen and (max-width: 400px) {
+    .menu #btn1 {
+    display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .menu:hover #btn1 {
+    display: block;
+    }
+}
 /*img logo*/
 img{
     width: 30px;
@@ -174,6 +184,7 @@ only screen and (max-width: 760px),
 
     table, th, td, tr { 
         display: block; 
+        width: 200px;
     }
 }
 td, th { 
@@ -194,4 +205,31 @@ td, th {
     bottom:10px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #333;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    .quest1, .quest2, .quest3, .quest4{ 
+        width: 200px; 
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    h1,h4{ 
+        width: 200px; 
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    .button{ 
+        margin-left: 10px; 
+    }
 }
