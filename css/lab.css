@@ -154,6 +154,7 @@ p{
 .conte ul li{
     list-style: none;
     text-align: justify;
+    padding-bottom: 10px;
 }
 
 table{
